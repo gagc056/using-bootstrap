@@ -116,7 +116,7 @@ body {
   line-height: 24px;
   font-weight: 700;
   list-style: none;
-  padding: 0 60px 0 0;
+  padding: 0 90px 0 0;
 }
 
 .nav li {
@@ -157,7 +157,7 @@ body {
   font-size: 16px;
   line-height: 16px;
   padding-bottom: 11px;
-  padding-top: 20px;
+  padding-top: 80px;
 }
 
 article {
@@ -547,6 +547,7 @@ footer {
   border-top: 2px solid #f4f5f6;
   background-color: #fff;
   padding-top: 30px;
+  width: 100%;
 }
 
 .logo-footer > img {
