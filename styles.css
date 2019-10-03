@@ -69,7 +69,7 @@ body {
 }
 
 .fa-chevron-right {
-  padding-right: 12px;
+  padding-right: 5px;
   padding-left: 12px;
   z-index: 9999;
 }
@@ -365,26 +365,32 @@ h6 {
 
 #image-article1 {
   background-image: url(./img/feschiff01banner.jpg);
+  height: 17vw;
 }
 
 #image-article2 {
   background-image: url(./img/feomar011130744964.jpg);
+  height: 17vw;
 }
 
 #image-article3 {
   background-image: url(./img/affirmative-action-college-admissions-scandal-statistics.jpg);
+  height: 17vw;
 }
 
 #image-article4 {
   background-image: url(./img/fewhiteidentity01619475022.jpg);
+  height: 17vw;
 }
 
 #image-article5 {
   background-image: url(./img/doug-jones.jpg);
+  height: 17vw;
 }
 
 #image-article6 {
   background-image: url(./img/feblockchain-impact-awardssimply-vital-health1062184620.jpg);
+  height: 17vw;
 }
 
 #image-article7 {
@@ -479,137 +485,139 @@ h6 {
   margin-top: 20px;
 }
 
-.sunscribe {
-  margin-bottom: 20px;
+.subscribe {
+  margin-bottom: 10px;
 }
 
-.items {
+part-title red {
+  font-size: 20px;
+}
+
+.subs-box {
+  padding: 30px;
   background-color: #f4f5f6;
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-bottom: 5px;
-  margin-bottom: 30px;
+  flex: 1;
 }
 
-.item1,
-.item2 {
-  padding: 20px 0 40px;
+.subs-image {
+  position: relative;
+  padding-bottom: 13px;
+  padding-right: 90px;
+  flex: none;
 }
 
-.item2 {
-  border-top: 1px solid #d2d2d2;
-  padding-bottom: 100px;
+.subs-image .mag-thumb {
+  width: 170px;
+  height: 228px;
 }
 
-.itemsimg {
-  width: 120px;
-  float: left;
-  margin-right: 20px;
+.subs-image .mag-thumb.current {
+  position: absolute;
+  top: 13px;
+  left: 80px;
 }
 
-.itemsspan::before {
-  content: '✓';
-  color: #999;
-  font-size: 26px;
-  vertical-align: top;
-  text-align: center;
-}
-
-.itemsspan {
-  font-size: 15px;
-  margin-top: 5px;
-}
-
-#signin2 {
-  margin: 20px auto;
-  font-size: 18px;
-  font-weight: 600;
-  width: 100%;
-  text-align: center;
-}
-
-#signin2 a {
-  text-decoration: none;
+.subs-info a {
   background-color: #f72210;
-  color: #fff;
-  padding: 8px;
+  display: inline-block;
+  padding: 10px 12px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px/18px;
+  font-weight: bold;
 }
 
-.mostread {
-  color: #f72210;
-}
-
-.logo-without-background {
-  padding-bottom: 20px;
-}
-
-footer {
-  border-top: 2px solid #f4f5f6;
-  background-color: #fff;
-  padding-top: 30px;
+.newsletter-box {
   width: 100%;
+  flex: 1;
 }
 
-.logo-footer > img {
-  width: 256px;
+.newsletter-box .nletter-image {
+  max-width: 191px;
+  width: 150%;
+}
+
+.nletter-info {
+  border: 1px solid #ebebeb;
+  padding: 30px;
+  height: 100% !important;
+  width: 100% !important;
+}
+
+.nletter-info a {
+  padding: 10px 12px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px/18px;
+  font-weight: bold;
+  background-color: #f72210;
+}
+
+.footer-content {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.fr-footer .brand svg {
+  display: block;
+  width: 236px;
   height: 36px;
+  margin-right: 15px;
+  margin-bottom: 12px;
   fill: #f72210;
-  padding-left: 40px;
 }
 
-.copyright {
-  vertical-align: bottom;
-  padding-left: 10px;
-}
-
-.media-icons {
-  text-align: right;
-  display: inline;
-}
-
-.media-icons > i {
-  vertical-align: -webkit-baseline-middle;
-  font-size: 25px;
+.fr-footer .copyright {
+  font-size: 12px;
+  line-height: 12px;
   color: #666;
-  padding-left: 7px;
+  margin-bottom: 12px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-.menu {
-  display: flex;
+.fr-footer ul {
+  list-style-type: none;
+}
+
+.fr-footer ul li:first-child {
+  margin-left: 0;
+}
+
+.fr-footer ul li {
+  margin-left: 10px;
+}
+
+.fr-footer .socials {
+  margin-bottom: 12px;
+  height: 24px;
+}
+
+.footer-links,
+.footer-links-edition ul li a {
+  padding-top: 6px;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 14px;
   line-height: 15px;
-  list-style: none;
-  margin: 0;
   color: #666;
 }
 
-.footer-list {
-  border-right: 1px solid #d9d9d9;
-  padding-right: 10px;
-  margin-right: 10px;
-  margin-bottom: 10px;
+.footer-links .footer-links-menu ul,
+.footer-links-edition ul {
+  list-style-type: none;
+  display: block;
+}
+
+.footer-links ul li {
+  display: inline-block;
+  margin: 6px 0;
   cursor: pointer;
 }
 
-.footer-list:hover {
-  color: #000;
-}
-
-#right {
-  text-align: right;
-  padding: 0;
-}
-
-.last {
-  border: none;
-}
-
-@media screen and (max-width: 1000px) {
+@media screen and (min-width: 1080px) {
   .logo {
-    width: 135px;
+    width: 132px;
     height: 20px;
     left: 100px;
-    top: 12px;
+    top: 10px;
   }
 
   .fa-bars {
@@ -650,20 +658,27 @@ footer {
   }
 }
 
-@media (max-width: 768px) {
+@media (min-width: 768px) {
+  .itemsimg {
+    margin-bottom: 15px;
+    display: inline-block;
+  }
+
+  .itemsimg h3 {
+    font-size: 20px;
+  }
+
   .image {
     width: 256px;
   }
 
-  .image-article {
-    height: 52vw;
-  }
-
-  #image-article7 {
-    height: 52vw;
-  }
-
   .media-icons {
     text-align: left;
+  }
+
+  .footer-links ul li {
+    border-right: 1px solid #d9d9d9;
+    padding-right: 10px;
+    margin-right: 10px;
   }
 }
