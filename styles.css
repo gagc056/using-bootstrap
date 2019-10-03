@@ -1,0 +1,675 @@
+body {
+  background-color: #f4f5f6;
+  color: #333;
+  font-size: 13px;
+  line-height: 20px;
+  font-family: 'Roboto', sans-serif;
+  overflow-x: hidden;
+}
+
+.content {
+  max-width: 1360px;
+  margin: auto;
+  padding: 30px;
+  background-color: #fff;
+}
+
+.container-fluid {
+  position: relative;
+}
+
+#navscroll {
+  position: relative;
+  margin: auto;
+  background-color: #f72210;
+  color: #fff;
+  padding: 50px 0 10px 0;
+  max-width: 1360px;
+}
+
+#navbottom {
+  position: relative;
+  top: 95px;
+  max-width: 1360px;
+  margin: auto;
+}
+
+.logo {
+  position: absolute;
+  width: 400px;
+  height: 60px;
+  transform: translate(-50%, 0);
+  top: 15px;
+  left: 50%;
+}
+
+.logo > img {
+  width: 100%;
+}
+
+.datenav {
+  position: relative;
+  margin-left: 20px;
+  font-size: 16px;
+}
+
+#signin {
+  margin-right: 20px;
+  font-size: 18px;
+  font-weight: 600;
+  position: relative;
+  bottom: 12px;
+}
+
+#signinid {
+  text-decoration: none;
+  color: #f72210;
+  background-color: #fff;
+  padding: 6px;
+}
+
+.fa-chevron-right {
+  padding-right: 5px;
+  padding-left: 12px;
+  z-index: 9999;
+}
+
+#signin span {
+  margin-right: 14px;
+}
+
+.fa-bars {
+  position: absolute;
+  top: 0;
+  right: -12px;
+  width: 14px;
+  padding: 12px;
+  color: #f72210;
+  z-index: 9999;
+}
+
+.header-bottom {
+  color: #000;
+  height: 50px;
+  padding: 10px 0;
+  background-color: #fff;
+  border-bottom: 1px solid #d9d9d9;
+  position: relative;
+}
+
+.header-bottom::before {
+  width: 66px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  content: "";
+  display: block;
+  background-color: #f72210;
+  border-left: 12px solid #fff;
+  border-top: 13px solid #f72210;
+}
+
+.nav {
+  display: flex;
+  margin: 0;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 700;
+  list-style: none;
+  padding: 0 90px 0 0;
+}
+
+.nav li {
+  flex-grow: 1;
+  text-align: center;
+  border-left: 1px solid #d9d9d9;
+}
+
+.nav > li > a {
+  cursor: pointer;
+}
+
+.nav > li > a:hover {
+  color: #f72210;
+}
+
+.nav :first-child,
+.nav :last-child {
+  border-width: 0;
+}
+
+#search {
+  color: #0000008c;
+  cursor: text;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.fa-search {
+  padding-left: 10px;
+  font-weight: 400;
+}
+
+.block-title {
+  color: #03030366;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 16px;
+  padding-bottom: 11px;
+  padding-top: 80px;
+}
+
+article {
+  padding-bottom: 20px;
+}
+
+.wrapper {
+  position: relative;
+  min-height: 35px;
+}
+
+img {
+  position: relative;
+  width: 100%;
+}
+
+.pic-on {
+  display: block;
+  font: bold 17px/16px "Roboto", sans-serif;
+  color: #f72210;
+  padding: 8px 15px 9px;
+  background-color: rgba(255, 255, 255, 0.9);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+}
+
+h3 {
+  font-weight: 700;
+  font-size: 22px;
+  color: #000;
+}
+
+.summary {
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0 0 12px;
+}
+
+.related {
+  padding: 10px 0;
+  border-top: 1px solid #d9d9d9;
+  border-bottom: 1px solid #d9d9d9;
+  font-size: 17px;
+  font-weight: 700;
+  color: #000;
+}
+
+.clearfix {
+  padding-top: 14px;
+  padding-bottom: 10px;
+  border-top: 1px solid #ddd;
+}
+
+.image {
+  float: left;
+  width: 135px;
+  margin-right: 15px;
+  clear: right;
+}
+
+h6 {
+  color: #000;
+  font-weight: 700;
+}
+
+.opinion {
+  border-bottom: 1px solid #ddd;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.headshot {
+  height: 63px;
+  max-width: 63px;
+}
+
+.info {
+  color: #000;
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 5px;
+  margin-left: -10px;
+}
+
+.byline {
+  color: #555;
+  padding: 0;
+  margin: 0;
+}
+
+#last-opinion {
+  border: none;
+}
+
+.article-info {
+  padding: 20px 0;
+  border: 1px solid #e6e6e6;
+}
+
+.block {
+  position: relative;
+  width: 300px;
+  height: 163px;
+  border: 1px solid #e5e5e5;
+  background-color: #f4f5f6;
+  padding: 20px;
+  margin: 0 auto 20px;
+}
+
+#add {
+  margin-bottom: 10px;
+}
+
+.update {
+  margin-top: 20px;
+  color: #333;
+  font: bold 15px/15px "Roboto", sans-serif;
+}
+
+.icon-n {
+  position: relative;
+  display: block;
+  max-width: 29px;
+  height: 28px;
+  background:
+    url(https://s.newsweek.com/sites/www.newsweek.com/themes/newsweek/images/logo-n1.svg) center/contain
+    no-repeat #f72210;
+  margin-right: 10px;
+}
+
+#block-text {
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.signup {
+  text-decoration: none;
+  color: #fff;
+  width: 101px;
+  padding: 10px 5px 10px 12px;
+  font: bold 18px/18px "Roboto", sans-serif;
+  margin-top: 0;
+  background-color: #666;
+}
+
+.sponsored-article {
+  max-width: 330px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.bottom {
+  margin-top: 30px;
+  color: #f72210;
+}
+
+.bottom h2 {
+  font-size: 24px;
+}
+
+.gray {
+  background-color: #f4f5f6;
+  color: #000;
+  text-align: center;
+  margin-bottom: 0;
+  padding: 10px 10px 10px 12px;
+  font: bold 18px/18px "Roboto", sans-serif;
+}
+
+.gray::after {
+  content: "";
+  display: inline-block;
+  width: 8px;
+  height: 14px;
+  margin-left: 10px;
+  background:
+    url(https://s.newsweek.com/sites/www.newsweek.com/themes/newsweek/images/icon-arrow-right-black.svg)
+    center/contain no-repeat;
+}
+
+.part-title {
+  font-size: 19px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+  padding-top: 5px;
+}
+
+.title-border {
+  border-bottom: 1px solid #d9d9d9;
+  margin: 20px auto;
+}
+
+.image-article {
+  position: relative;
+  background-color: #000;
+  background-position: center;
+  background-size: cover;
+  height: 15vw;
+  overflow: hidden;
+}
+
+#image-article1 {
+  background-image: url(./img/feschiff01banner.jpg);
+  height: 17vw;
+}
+
+#image-article2 {
+  background-image: url(./img/feomar011130744964.jpg);
+  height: 17vw;
+}
+
+#image-article3 {
+  background-image: url(./img/affirmative-action-college-admissions-scandal-statistics.jpg);
+  height: 17vw;
+}
+
+#image-article4 {
+  background-image: url(./img/fewhiteidentity01619475022.jpg);
+  height: 17vw;
+}
+
+#image-article5 {
+  background-image: url(./img/doug-jones.jpg);
+  height: 17vw;
+}
+
+#image-article6 {
+  background-image: url(./img/feblockchain-impact-awardssimply-vital-health1062184620.jpg);
+  height: 17vw;
+}
+
+#image-article7 {
+  background-image: url(./img/infocus041135495345.jpg);
+  height: 17vw;
+}
+
+.category {
+  font: bold 16px/26px "Roboto", sans-serif;
+  color: #f72210;
+  text-transform: uppercase;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.magazine-article .category span:first-of-type {
+  padding: 3px 7px;
+  background-color: #f72210;
+  color: #fff;
+  margin-right: 7px;
+}
+
+.cat > a {
+  color: #f72210;
+}
+
+.article-title {
+  font-size: 20px;
+  color: #000;
+  font-weight: 700;
+}
+
+#marathon {
+  position: absolute;
+  bottom: 0;
+  padding: 3px 7px;
+  background-color: #f72210;
+  color: #fff;
+  font-size: 17px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+#shadowN::after {
+  border-bottom: 3px solid red;
+  border-right: 3px solid red;
+  display: block;
+  content: "";
+  width: 26px;
+  height: 25px;
+  position: absolute;
+  bottom: -4px;
+  right: -4px;
+}
+
+.count {
+  width: 70px;
+  height: 52px;
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 58px;
+  text-indent: 5px;
+  text-align: center;
+  background: url(./img/icon-slideshows-nw.png) 0 0/contain no-repeat;
+  color: #e9212e;
+}
+
+.part-picks {
+  border-top: 1px solid #d9d9d9;
+  color: #f72210;
+  padding-top: 25px;
+  font-size: 22px;
+  line-height: 22px;
+}
+
+.feature2 {
+  padding: 10px 0;
+  border-top: 1px solid #d9d9d9;
+}
+
+.top-column {
+  border: none;
+  padding: 0 0 10px;
+}
+
+.subscribe {
+  margin-bottom: 10px;
+}
+
+.subs-box {
+  padding: 30px;
+  background-color: #f4f5f6;
+  flex: 1;
+}
+
+.subs-image {
+  position: relative;
+  padding-bottom: 13px;
+  padding-right: 90px;
+  flex: none;
+}
+
+.subs-image .mag-thumb {
+  width: 170px;
+  height: 228px;
+}
+
+.subs-image .mag-thumb.current {
+  position: absolute;
+  top: 13px;
+  left: 80px;
+}
+
+.subs-info a {
+  background-color: #f72210;
+  display: inline-block;
+  padding: 10px 12px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px/18px;
+  font-weight: bold;
+}
+
+.newsletter-box {
+  width: 100%;
+  flex: 1;
+}
+
+.newsletter-box .nletter-image {
+  max-width: 191px;
+  width: 150%;
+}
+
+.nletter-info {
+  border: 1px solid #ebebeb;
+  padding: 30px;
+  height: 100% !important;
+  width: 100% !important;
+}
+
+.nletter-info a {
+  padding: 10px 12px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px/18px;
+  font-weight: bold;
+  background-color: #f72210;
+}
+
+.footer-content {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.fr-footer .brand svg {
+  display: block;
+  width: 236px;
+  height: 36px;
+  margin-right: 15px;
+  margin-bottom: 12px;
+  fill: #f72210;
+}
+
+.fr-footer .copyright {
+  font-size: 12px;
+  line-height: 12px;
+  color: #666;
+  margin-bottom: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.fr-footer ul {
+  list-style-type: none;
+}
+
+.fr-footer ul li:first-child {
+  margin-left: 0;
+}
+
+.fr-footer ul li {
+  margin-left: 10px;
+}
+
+.fr-footer .socials {
+  margin-bottom: 12px;
+  height: 24px;
+}
+
+.footer-links,
+.footer-links-edition ul li a {
+  padding-top: 6px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  line-height: 15px;
+  color: #666;
+}
+
+.footer-links .footer-links-menu ul,
+.footer-links-edition ul {
+  list-style-type: none;
+  display: block;
+}
+
+.footer-links ul li {
+  display: inline-block;
+  margin: 6px 0;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1080px) {
+  .logo {
+    width: 132px;
+    height: 20px;
+    left: 100px;
+    top: 10px;
+  }
+
+  .fa-bars {
+    color: #fff;
+  }
+
+  #navscroll {
+    padding: 3px 0;
+  }
+
+  #datenav {
+    display: none;
+  }
+
+  #signin {
+    font-size: 14px;
+    bottom: 0;
+  }
+
+  #signin a {
+    padding: 6px;
+  }
+
+  .fa-chevron-right {
+    display: none !important;
+  }
+
+  .header-bottom {
+    display: none;
+  }
+
+  #right-col {
+    margin: auto;
+  }
+
+  .content {
+    padding-top: 40px;
+  }
+}
+
+@media (max-width: 768px) {
+  .itemsimg {
+    margin-bottom: 15px;
+    display: inline-block;
+  }
+
+  .itemsimg h3 {
+    font-size: 20px;
+  }
+
+  .image {
+    width: 256px;
+  }
+
+  .media-icons {
+    text-align: left;
+  }
+
+  .footer-links ul li {
+    border-right: 1px solid #d9d9d9;
+    padding-right: 10px;
+    margin-right: 10px;
+  }
+}
